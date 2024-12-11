@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+
+        <form id="formulario" class="formulario">
+            <div class="conteudo-formulario">
+                <label for="login"></label>
+                <input 
+                type="text"
+                id="login"
+                placeholder="inserir o nome"/>
+                <i class="fa-solid fa-user"></i>
+                <a>mensagem de erro</a>
+            </div>
+
+                <div class="conteudo-formulario">
+                    <label for="Senha"></label>
+                    <input 
+                    type="password"
+                    id="senha"
+                    placeholder="inserir a senha"/>
+                    <i class="fa-solid fa-lock"></i>
+                    <a>mensagem de erro</a>
+                </div>
+
+                    <div class="lembrar-senha">
+                        <input 
+                        type="checkbox" 
+                        id="lembrar" 
+                        name="lembrar-senha">
+                        <label for="lembrar-senha">Lembrar Senha</label>
+                    </div>
+
+                         <button type = submit>Entrar</button>
+
+                         <p>____________OU____________</p>
+
+                        <div class="social-midia">
+                            <li class="item-social-midia">
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            </li>
+                            
+                            <li class="item-social-midia">
+                                <a href="#"><i class="fa-brands fa-google"></i></a>
+                            </li>
+
+                            <li class="item-social-midia">
+                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            </li>
+                        </div>
+        </form>
+    </div>
+</body>
+</html>
